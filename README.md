@@ -1,19 +1,23 @@
-# QA-chef  (Software + Tools Installation)
-this is a small read.me repo guide that includes various installation guides and links for QA setups 
+# QA Chef 🍳  
+*A curated setup of tools, software, and ingredients for Quality Assurance work.*
 
-A practical, OS-friendly checklist of tools I use for QA work (manual testing, test automation, API testing, performance testing, mobile testing, reporting, and CI/CD).
+QA Chef is a practical, OS-friendly checklist of **installation links and tools** used across:
+- Manual QA
+- Test Automation
+- API Testing
+- Performance Testing
+- Mobile Testing
+- Databases
+- CI/CD & Reporting
 
-This repository is designed to be:
-- ✅ Simple to follow (step-by-step installs)
-- ✅ Cross-platform (Windows / macOS / Linux)
-- ✅ Easy to extend as new tools are added
+This repo is intentionally **tool-focused** — no frameworks or opinions forced — just clean access to what you need.
 
 ---
 
 ## Contents
 
 - [Quick Start](#quick-start)
-- [Core Tools (Recommended)](#core-tools-recommended)
+- [Core Tools](#core-tools)
 - [Manual QA](#manual-qa)
 - [Test Automation](#test-automation)
 - [API Testing](#api-testing)
@@ -23,208 +27,180 @@ This repository is designed to be:
 - [CI/CD & DevOps](#cicd--devops)
 - [Reporting & Test Management](#reporting--test-management)
 - [Nice-to-Have Utilities](#nice-to-have-utilities)
-- [Verification Checklist](#verification-checklist)
-- [Docs](#docs)
 - [License](#license)
 
 ---
 
 ## Quick Start
 
-### 1) Install a package manager
-- **Windows:** Chocolatey or Winget  
-- **macOS:** Homebrew  
-- **Linux:** apt / dnf / pacman
+### Package Managers
+Install one package manager for your OS:
 
-> Tip: Once you have a package manager, most tools become 1-command installs.
+- **Windows**
+  - Chocolatey: https://chocolatey.org/install  
+  - Winget: https://learn.microsoft.com/windows/package-manager/winget/
 
-### 2) Install core tools first
-Install these before anything else:
-- Git
-- VS Code
-- A terminal shell (PowerShell / zsh / bash)
-- One automation runtime (Node.js OR Python)
+- **macOS**
+  - Homebrew: https://brew.sh/
+
+- **Linux**
+  - apt (Debian/Ubuntu): https://wiki.debian.org/Apt
+  - dnf (Fedora): https://docs.fedoraproject.org/en-US/quick-docs/dnf/
+  - pacman (Arch): https://wiki.archlinux.org/title/pacman
 
 ---
 
-## Core Tools (Recommended)
+## Core Tools
 
 ### Git
-- Purpose: version control, PR workflows, collaboration
-- Install: Git for your OS
+Version control and collaboration  
+🔗 https://git-scm.com/
 
-### VS Code
-- Purpose: editing, debugging, extensions for QA stacks
-- Extensions (suggested):
-  - Playwright Test for VS Code
-  - Python
-  - Pylance
-  - ESLint
-  - Prettier
-  - GitLens
-  - REST Client (optional)
+### Visual Studio Code
+Primary editor for QA, automation, and debugging  
+🔗 https://code.visualstudio.com/
 
 ### Runtimes
-Choose what matches your automation stack:
-- **Node.js (LTS)** + npm
-- **Python 3.11+** + pip
+
+- **Node.js (LTS)** – required for Playwright, Cypress, Appium  
+  🔗 https://nodejs.org/
+
+- **Python 3** – required for Selenium, API testing, scripting  
+  🔗 https://www.python.org/downloads/
 
 ### Browsers
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
+- Chrome: https://www.google.com/chrome/
+- Firefox: https://www.mozilla.org/firefox/
+- Edge: https://www.microsoft.com/edge
 
 ---
 
 ## Manual QA
 
-### Tools
-- **Snipping Tool / ShareX (Windows)** or native screenshot tools
-- **OBS Studio (optional)** for recording repro steps
-- **Postman / Insomnia** (also in API section)
+### Screenshot & Recording
+- ShareX (Windows): https://getsharex.com/
+- OBS Studio: https://obsproject.com/
 
 ### Documentation
-- Markdown (README style notes)
-- Optional: Notion / Confluence (team dependent)
+- Markdown Guide: https://www.markdownguide.org/
+- Notion: https://www.notion.so/
+- Confluence: https://www.atlassian.com/software/confluence
 
 ---
 
 ## Test Automation
 
-### Option A: Playwright (recommended modern E2E)
-- Use-case: fast, reliable UI automation, cross-browser, great CI support
-- Requirements:
-  - Node.js (LTS)
-  - Playwright
+### Playwright (Recommended)
+Modern, fast, cross-browser UI automation  
+🔗 https://playwright.dev/
 
-### Option B: Selenium
-- Use-case: legacy projects, broad ecosystem, grid support
-- Requirements:
-  - Browser drivers (ChromeDriver / GeckoDriver) or Selenium Manager
-  - Java or Python (depending on framework)
+### Selenium
+Industry-standard UI automation (legacy-friendly)  
+🔗 https://www.selenium.dev/
 
-### Option C: Cypress (frontend-heavy web apps)
-- Use-case: component/E2E testing for JS-first teams
+### Cypress
+Frontend-focused E2E and component testing  
+🔗 https://www.cypress.io/
 
 ---
 
 ## API Testing
 
 ### Postman
-- Use-case: manual API testing, collections, environments
-- Extras:
-  - Newman (CLI runner) for CI pipelines
+Manual API testing, collections, environments  
+🔗 https://www.postman.com/
 
-### Insomnia (alternative)
-- Use-case: clean UI, good for REST/GraphQL workflows
+### Newman (Postman CLI)
+Run Postman collections in CI  
+🔗 https://www.npmjs.com/package/newman
 
-### CLI tools
-- curl
-- jq (JSON parsing)
+### Insomnia
+Alternative REST & GraphQL client  
+🔗 https://insomnia.rest/
+
+### CLI Utilities
+- curl: https://curl.se/
+- jq (JSON parsing): https://jqlang.github.io/jq/
 
 ---
 
 ## Performance Testing
 
-### JMeter
-- Use-case: load & performance testing, plugins available
+### Apache JMeter
+Load & performance testing  
+🔗 https://jmeter.apache.org/
 
 ### k6
-- Use-case: modern load testing in JavaScript, CI-friendly
+Modern performance testing with JavaScript  
+🔗 https://k6.io/
 
 ---
 
 ## Mobile Testing
 
 ### Android Studio
-- Use-case: emulator, debugging, logcat, APK installs
+Android emulator, SDKs, debugging  
+🔗 https://developer.android.com/studio
 
 ### Appium
-- Use-case: cross-platform mobile automation (Android/iOS)
-- Typical requirements:
-  - Node.js
-  - Java JDK
-  - Android Studio (Android SDK)
-  - Xcode (macOS only, for iOS)
+Cross-platform mobile automation  
+🔗 https://appium.io/
+
+### Apple Xcode (macOS only)
+Required for iOS testing  
+🔗 https://developer.apple.com/xcode/
 
 ---
 
 ## Databases & Data Tools
 
-### SQL Clients
-- DBeaver (multi-db)
-- Oracle SQL Developer (Oracle)
-- Azure Data Studio / SSMS (SQL Server)
+### Database Clients
+- DBeaver: https://dbeaver.io/
+- Oracle SQL Developer: https://www.oracle.com/database/sqldeveloper/
+- Azure Data Studio: https://learn.microsoft.com/sql/azure-data-studio/
 
-### Useful CLIs
-- psql (Postgres)
-- mysql client
-- sqlite
+### CLI Tools
+- PostgreSQL (psql): https://www.postgresql.org/
+- MySQL: https://www.mysql.com/
+- SQLite: https://www.sqlite.org/
 
 ---
 
 ## CI/CD & DevOps
 
 ### GitHub Actions
-- Use-case: automated test runs on PRs, scheduled runs, publishing reports
+Automated testing pipelines  
+🔗 https://docs.github.com/actions
 
 ### Docker
-- Use-case: reproducible environments, running test dependencies locally (DBs, services)
+Reproducible test environments  
+🔗 https://www.docker.com/
 
 ---
 
 ## Reporting & Test Management
 
-### Test Reporting
-- Allure Report
-- Playwright HTML Report
-- JUnit XML output (for CI integration)
+### Test Reports
+- Allure: https://allurereport.org/
+- Playwright HTML Reports: https://playwright.dev/docs/test-reporters
 
-### Test Management (org dependent)
-- Jira + Zephyr / Xray
-- Azure DevOps Test Plans
+### Test Management Tools
+- Jira: https://www.atlassian.com/software/jira
+- Zephyr: https://www.getzephyr.com/
+- Xray: https://www.getxray.app/
+- Azure DevOps Test Plans: https://learn.microsoft.com/azure/devops/test/
 
 ---
 
 ## Nice-to-Have Utilities
 
-- Fiddler / Charles Proxy (traffic inspection)
-- Browser DevTools mastery
-- WSL2 (Windows) for Linux-like dev/test environment
-- .env management tools (direnv optional)
-
----
-
-## Verification Checklist
-
-After installation, verify:
-
-- `git --version`
-- `node -v` and `npm -v` (if using Node)
-- `python --version` and `pip --version` (if using Python)
-- `docker --version` (if installed)
-- Playwright: run a quick init and test
-- Postman: import a sample collection and hit a public API
-
----
-
-## Docs
-
-Platform/stack-specific guides live in `/docs`:
-- Windows setup
-- macOS setup
-- Linux setup
-- Browser drivers
-- Playwright setup
-- Selenium setup
-- API testing setup
-- Performance testing setup
-- Mobile testing setup
-- CI/CD setup
-- Troubleshooting
+- Fiddler (HTTP debugging): https://www.telerik.com/fiddler
+- Charles Proxy: https://www.charlesproxy.com/
+- Windows Subsystem for Linux (WSL): https://learn.microsoft.com/windows/wsl/
+- DevTools Docs: https://developer.chrome.com/docs/devtools/
 
 ---
 
 ## License
 
-MIT (recommended for public sharing), unless you want a more restrictive license.
+MIT License – free to use, share, and extend.
