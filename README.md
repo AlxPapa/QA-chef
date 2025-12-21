@@ -14,7 +14,7 @@ This repo is intentionally **tool-focused** — no frameworks or opinions forced
 
 ---
 
-## Recipies (Contents) 
+## Recipes (Contents) 
 
 - [Quick Start](#quick-start)
 - [Core Tools](#core-tools)
