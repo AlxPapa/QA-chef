@@ -90,7 +90,7 @@ Primary editor for QA, automation, and debugging
 
 ## Test Automation
 
-### Playwright (Recommended)
+### Playwright
 Modern, fast, cross-browser UI automation  
 🔗 https://playwright.dev/
 
