@@ -2,7 +2,7 @@
   <img src="assets/logo/QA_Chef_LOGO_transp3.png" alt="QA Chef Logo" width="220">
 </p>
 
-<h1 align="center">QA Chef 🍳</h1>
+<h1 align="left">QA Chef 🍳</h1>
 
 <p align="center">
   A curated toolkit for Quality Assurance, Automation, DevOps, and AI-assisted testing
