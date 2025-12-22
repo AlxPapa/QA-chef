@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo/QA_Chef_LOGO.png" alt="QA Chef Logo" width="220">
+  <img src="assets/logo/QA_Chef_LOGO+transp.png" alt="QA Chef Logo" width="220">
 </p>
 
 <h1 align="center">QA Chef 🍳</h1>
