@@ -1,206 +1,203 @@
-# QA Chef 🍳  
-*A curated setup of tools, software, and ingredients for Quality Assurance work.*
+<p align="center">
+  <img src="assets/logo/qa-chef-logo.png" alt="QA Chef Logo" width="220">
+</p>
 
-QA Chef is a practical, OS-friendly checklist of **installation links and tools** used across:
-- Manual QA
-- Test Automation
-- API Testing
-- Performance Testing
-- Mobile Testing
-- Databases
-- CI/CD & Reporting
+<h1 align="center">QA Chef 🍳</h1>
 
-This repo is intentionally **tool-focused** — no frameworks or opinions forced — just clean access to what you need.
+<p align="center">
+  A curated toolkit for Quality Assurance, Automation, DevOps, and AI-assisted testing
+</p>
 
 ---
 
-## Recipes (Contents) 
+## Overview
 
-- [Quick Start](#quick-start)
-- [Core Tools](#core-tools)
-- [Manual QA](#manual-qa)
-- [Test Automation](#test-automation)
-- [API Testing](#api-testing)
-- [Performance Testing](#performance-testing)
-- [Mobile Testing](#mobile-testing)
-- [Databases & Data Tools](#databases--data-tools)
-- [CI/CD & DevOps](#cicd--devops)
-- [Reporting & Test Management](#reporting--test-management)
-- [Nice-to-Have Utilities](#nice-to-have-utilities)
-- [License](#license)
+**QA Chef** is a practical, tool-focused repository that lists essential **software, frameworks, languages, platforms, and references** used by:
+
+- QA Engineers
+- Automation Testers
+- SDETs
+- DevOps-aware QA professionals
+
+This repo is designed to be:
+- ✅ Beginner-friendly
+- ✅ Senior-approved
+- ✅ Public-safe
+- ✅ Tool-first (no forced frameworks)
+- ✅ CI / DevOps / AI aware
+
+---
+
+## Table of Contents
+
+- Quick Start
+- Source Control & Collaboration
+- Programming Languages & Runtimes
+- Package Managers
+- Test Automation Frameworks
+- API Testing
+- Performance & Load Testing
+- Mobile Testing
+- CI/CD & DevOps Tools
+- Observability & Monitoring
+- Test Reporting & Management
+- AI Tools for Testing
+- Cheat Sheets & Quick References
+- Nice-to-Have Utilities
+- Branding
+- License
 
 ---
 
 ## Quick Start
 
-### Package Managers
-Install one package manager for your OS:
+Install a package manager for your OS first:
 
-- **Windows**
-  - Chocolatey: https://chocolatey.org/install  
-  - Winget: https://learn.microsoft.com/windows/package-manager/winget/
+### Windows
+- Chocolatey: https://chocolatey.org/install  
+- Winget: https://learn.microsoft.com/windows/package-manager/winget/
 
-- **macOS**
-  - Homebrew: https://brew.sh/
+### macOS
+- Homebrew: https://brew.sh/
 
-- **Linux**
-  - apt (Debian/Ubuntu): https://wiki.debian.org/Apt
-  - dnf (Fedora): https://docs.fedoraproject.org/en-US/quick-docs/dnf/
-  - pacman (Arch): https://wiki.archlinux.org/title/pacman
+### Linux
+- apt: https://wiki.debian.org/Apt  
+- dnf: https://docs.fedoraproject.org/en-US/quick-docs/dnf/
 
 ---
 
-## Core Tools
+## Source Control & Collaboration
 
-### Git
-Version control and collaboration  
-🔗 https://git-scm.com/
+- Git: https://git-scm.com/
+- GitHub: https://github.com/
 
-### Visual Studio Code
-Primary editor for QA, automation, and debugging  
-🔗 https://code.visualstudio.com/
-
-### Runtimes
-
-- **Node.js (LTS)** – required for Playwright, Cypress, Appium  
-  🔗 https://nodejs.org/
-
-- **Python 3** – required for Selenium, API testing, scripting  
-  🔗 https://www.python.org/downloads/
-
-### Browsers
-- Chrome: https://www.google.com/chrome/
-- Firefox: https://www.mozilla.org/firefox/
-- Edge: https://www.microsoft.com/edge
+Used for version control, pull requests, code reviews, issues, and CI integration.
 
 ---
 
-## Manual QA
+## Programming Languages & Runtimes
 
-### Screenshot & Recording
-- ShareX (Windows): https://getsharex.com/
-- OBS Studio: https://obsproject.com/
-
-### Documentation
-- Markdown Guide: https://www.markdownguide.org/
-- Notion: https://www.notion.so/
-- Confluence: https://www.atlassian.com/software/confluence
+- JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript  
+- TypeScript: https://www.typescriptlang.org/  
+- Java: https://www.oracle.com/java/  
+- Python: https://www.python.org/  
 
 ---
 
-## Test Automation
+## Package Managers
 
-### Playwright
-Modern, fast, cross-browser UI automation  
-🔗 https://playwright.dev/
+- npm (Node.js): https://www.npmjs.com/  
+- pip (Python): https://pip.pypa.io/  
 
-### Selenium
-Industry-standard UI automation (legacy-friendly)  
-🔗 https://www.selenium.dev/
+---
 
-### Cypress
-Frontend-focused E2E and component testing  
-🔗 https://www.cypress.io/
+## Test Automation Frameworks
+
+- Playwright: https://playwright.dev/  
+- Selenium: https://www.selenium.dev/  
+- TestNG (Java): https://testng.org/  
+- Appium (Mobile): https://appium.io/  
 
 ---
 
 ## API Testing
 
-### Postman
-Manual API testing, collections, environments  
-🔗 https://www.postman.com/
-
-### Newman (Postman CLI)
-Run Postman collections in CI  
-🔗 https://www.npmjs.com/package/newman
-
-### Insomnia
-Alternative REST & GraphQL client  
-🔗 https://insomnia.rest/
-
-### CLI Utilities
-- curl: https://curl.se/
-- jq (JSON parsing): https://jqlang.github.io/jq/
+- Postman: https://www.postman.com/  
+- Newman (Postman CLI): https://www.npmjs.com/package/newman  
+- curl: https://curl.se/  
 
 ---
 
-## Performance Testing
+## Performance & Load Testing
 
-### Apache JMeter
-Load & performance testing  
-🔗 https://jmeter.apache.org/
-
-### k6
-Modern performance testing with JavaScript  
-🔗 https://k6.io/
+- k6: https://k6.io/  
+- Apache JMeter: https://jmeter.apache.org/  
 
 ---
 
 ## Mobile Testing
 
-### Android Studio
-Android emulator, SDKs, debugging  
-🔗 https://developer.android.com/studio
-
-### Appium
-Cross-platform mobile automation  
-🔗 https://appium.io/
-
-### Apple Xcode (macOS only)
-Required for iOS testing  
-🔗 https://developer.apple.com/xcode/
+- Android Studio: https://developer.android.com/studio  
+- Xcode (macOS): https://developer.apple.com/xcode/  
 
 ---
 
-## Databases & Data Tools
+## CI/CD & DevOps Tools
 
-### Database Clients
-- DBeaver: https://dbeaver.io/
-- Oracle SQL Developer: https://www.oracle.com/database/sqldeveloper/
-- Azure Data Studio: https://learn.microsoft.com/sql/azure-data-studio/
+- Jenkins: https://www.jenkins.io/  
+- GitHub Actions: https://docs.github.com/actions  
+- Docker: https://www.docker.com/  
 
-### CLI Tools
-- PostgreSQL (psql): https://www.postgresql.org/
-- MySQL: https://www.mysql.com/
-- SQLite: https://www.sqlite.org/
+Used to automate builds, test execution, reporting, and deployments.
 
 ---
 
-## CI/CD & DevOps
+## Observability & Monitoring
 
-### GitHub Actions
-Automated testing pipelines  
-🔗 https://docs.github.com/actions
+- Grafana: https://grafana.com/  
+- Prometheus: https://prometheus.io/  
 
-### Docker
-Reproducible test environments  
-🔗 https://www.docker.com/
+Useful for monitoring performance tests, CI pipelines, and system health.
 
 ---
 
-## Reporting & Test Management
+## Test Reporting & Management
 
-### Test Reports
-- Allure: https://allurereport.org/
-- Playwright HTML Reports: https://playwright.dev/docs/test-reporters
+- Allure Reports: https://allurereport.org/  
+- Jira: https://www.atlassian.com/software/jira  
+- Zephyr: https://www.getzephyr.com/  
+- Xray: https://www.getxray.app/  
 
-### Test Management Tools
-- Jira: https://www.atlassian.com/software/jira
-- Zephyr: https://www.getzephyr.com/
-- Xray: https://www.getxray.app/
-- Azure DevOps Test Plans: https://learn.microsoft.com/azure/devops/test/
+---
+
+## AI Tools for Testing 🤖
+
+- OpenAI: https://platform.openai.com/  
+- Applitools (Visual AI): https://applitools.com/  
+- Testim: https://www.testim.io/  
+- Mabl: https://www.mabl.com/  
+
+**Common QA Use Cases**
+- Generating test cases
+- Analyzing flaky tests
+- Reviewing automation code
+- Exploring edge cases
+- Visual regression testing
+
+---
+
+## Cheat Sheets & Quick References 🧾
+
+### QuickRef.me
+Fast, no-nonsense cheat sheets for developers, testers, and DevOps engineers.
+
+🔗 https://quickref.me/index.html
+
+**Why it’s included**
+- Syntax refreshers for Java, JS, Python, SQL
+- Git, Docker, CI/CD quick references
+- HTTP, regex, Markdown, CLI commands
+- Ideal for daily QA and automation work
+
+**Typical QA Use Cases**
+- Fast command lookups during test setup
+- SQL reference during data validation
+- Git workflow reminders
+- CI/CD config snippets
+- Reduced context switching
 
 ---
 
 ## Nice-to-Have Utilities
 
-- Fiddler (HTTP debugging): https://www.telerik.com/fiddler
-- Charles Proxy: https://www.charlesproxy.com/
-- Windows Subsystem for Linux (WSL): https://learn.microsoft.com/windows/wsl/
-- DevTools Docs: https://developer.chrome.com/docs/devtools/
+- VS Code: https://code.visualstudio.com/  
+- DBeaver (DB client): https://dbeaver.io/  
+- Fiddler: https://www.telerik.com/fiddler  
+- Charles Proxy: https://www.charlesproxy.com/  
+- OBS Studio: https://obsproject.com/  
 
 ---
 
 ## License
 
-MIT License – free to use, share, and extend.
+MIT License — free to use, share, and extend.
