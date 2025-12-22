@@ -150,7 +150,8 @@ Useful for monitoring performance tests, CI pipelines, and system health.
 
 ---
 
-## AI Tools for Testing 🤖
+## AI Tools for Testing & dev 🤖
+- Warp: https://www.warp.dev/
 - Vibium: https://github.com/VibiumDev/vibium
 - ClaudeAI: https://claude.ai/
 - OpenAI: https://platform.openai.com/  
