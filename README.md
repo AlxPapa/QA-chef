@@ -151,7 +151,7 @@ Useful for monitoring performance tests, CI pipelines, and system health.
 ---
 
 ## AI Tools for Testing 🤖
-
+- Vibium: https://github.com/VibiumDev/vibium
 - OpenAI: https://platform.openai.com/  
 - Applitools (Visual AI): https://applitools.com/  
 - Testim: https://www.testim.io/  
