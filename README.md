@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <img src="assets/logo/QA_Chef_LOGO_transp3.png" alt="QA Chef Logo" width="220">
 </p>
 
