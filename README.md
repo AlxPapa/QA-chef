@@ -126,7 +126,7 @@ This repo is designed to be:
 
 - Android Studio: https://developer.android.com/studio  
 - Xcode (macOS): https://developer.apple.com/xcode/
-- Browserstack: (for web testing top) https://www.browserstack.com/  
+- Browserstack: (for web testing too) https://www.browserstack.com/  
 
 ---
 <a id="cicd-devops"></a>
